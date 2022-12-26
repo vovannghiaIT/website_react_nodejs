@@ -1,0 +1,20 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.glide__arrow {
+    position: absolute;
+    display: block;
+    top: 50%;
+    z-index: 2;
+    opacity: 1;
+    transform: translateY(-50%);
+}
+
+.clip__pathNext {
+    clip-path: circle(42% at 100% 47%);
+}
+
+.clip__pathPrev {
+    clip-path: circle(43.0% at 0 51%);
+}
